@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+
+
+body {
+  font-family: 'roboto', regular 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #106770;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: bold;
+  font-family: 'Orbitron', regular;
+  color: #14c49d;
+  text-align: center;
+}
+
+p {
+  margin: 20px 0;
+  font-family: 'roboto', sans-serif;
+  color: #041726;
+  text-align: center;
+  text-justify: auto;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #106770;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #041726;
+  font-family: 'roboto', sans-serif;
+}
+
+footer p {
+  margin: 0;
+  color: #041726;
+}
+
+footer a {
+  color: #041726;
+  text-decoration: none;
+  font-family: 'Orbitron', sans-serif;
+}
+
+div {
+  text-align: center;
+}
