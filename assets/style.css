@@ -136,7 +136,7 @@ p {
 
 
 footer {
-  background-image: url('https://raw.githubusercontent.com/mantiniDev/mantiniapp.github.io/main/assets/img/fundo8.jpg');
+  background-image: url('../img/fundo8.jpg');
   position: unset;
   left: 0;
   bottom: 0;
@@ -176,28 +176,28 @@ footer a p {
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 30px;
   }
 
   #menu {
     position: absolute;
-    left: 420px;
+    left:350px;
     /* Ajuste o valor conforme necessário */
-    top: 28px;
+    top: 15px;
   }
 
   #whatsapp {
     position: absolute;
-    left: 320px;
+    left: 200px;
     /* Ajuste o valor conforme necessário */
-    top: 30px;
+    top: 20px;
   }
 
   #instagram {
     position: absolute;
-    left: 360px;
+    left: 260px;
     /* Ajuste o valor conforme necessário */
-    top: 30px;
+    top: 20px;
   }
 
   .whatsapp-icon {
