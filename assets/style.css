@@ -227,6 +227,48 @@ footer a p {
     margin-right: 15px;
     /* Opcional: espaço adicional no mobile */
   }
-
   
+}
+
+/* referente a essa pagina */
+/* diferente da index */
+.aviso {
+  position: unset;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #b1b5b8;
+  color: #d42c24;
+  text-align: center;
+  padding: 15px;
+  display: block; /* Mostrar o aviso por padrão */
+  z-index: 1000;
+}
+
+.aviso p {
+  margin: 0;
+  display: inline-block;
+}
+
+.aviso button {
+  margin-left: 20px;
+  background-color: #EDB807;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.aviso button:hover {
+  background-color: #EDA256;
+}
+
+.link_cookie {
+  color: #d42c24;
+  text-decoration: none;
+}
+
+.link_cookie:hover {
+  text-decoration: underline;
 }
