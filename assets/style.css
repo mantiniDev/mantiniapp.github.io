@@ -230,10 +230,9 @@ footer a p {
   
 }
 /* ____________________________________________________________________________________________ */
-/* referente a essa pagina */
-/* diferente da index */
+
 .aviso {
-  position: unset;
+  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
