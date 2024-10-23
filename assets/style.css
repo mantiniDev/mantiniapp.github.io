@@ -20,6 +20,7 @@ header {
 
 .nav-link {
   color: white;
+  font-weight: bold;
 
 }
 
@@ -30,8 +31,8 @@ header {
 
 .custom-toggler-icon {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23d42c24' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-  /* Cor laranja no ícone */
 }
+
 
 body {
   font-family: 'roboto', regular 400;
@@ -83,7 +84,14 @@ h1 {
   text-align: center;
 }
 
-h2 {}
+h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Orbitron', regular;
+  color: #fbfdf1;
+  text-align: start;
+}
 
 p {
   margin: 20px 1.5;
@@ -177,6 +185,16 @@ footer a p {
 
   h1 {
     font-size: 30px;
+  }
+
+  .navbar-nav {
+    margin-left: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .navbar-nav .nav-item {
+    width: 100%;
   }
 
   #menu {
