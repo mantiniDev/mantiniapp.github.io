@@ -181,14 +181,14 @@ footer a p {
 
   #menu {
     position: absolute;
-    left:350px;
+    left: 300px;
     /* Ajuste o valor conforme necessário */
     top: 15px;
   }
 
   #whatsapp {
     position: absolute;
-    left: 200px;
+    left: 220px;
     /* Ajuste o valor conforme necessário */
     top: 20px;
   }
