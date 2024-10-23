@@ -17,17 +17,20 @@ header {
   /* Evita o colapso de margens */
   box-sizing: border-box;
 }
+
 .nav-link {
   color: white;
-  
+
 }
 
 .custom-toggler {
-  border-color: #ff5733; /* Cor da borda do botão */
+  border-color: #ff5733;
+  /* Cor da borda do botão */
 }
 
 .custom-toggler-icon {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23ff5733' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* Cor laranja no ícone */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23ff5733' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  /* Cor laranja no ícone */
 }
 
 body {
@@ -109,13 +112,15 @@ p {
 /* icones sociais */
 #whatsapp {
   position: absolute;
-  left: 450px; /* Ajuste o valor conforme necessário */
+  left: 450px;
+  /* Ajuste o valor conforme necessário */
   top: 45px;
 }
 
 #instagram {
   position: absolute;
-  left: 490px; /* Ajuste o valor conforme necessário */
+  left: 490px;
+  /* Ajuste o valor conforme necessário */
   top: 45px;
 }
 
@@ -147,7 +152,7 @@ footer p {
   margin: 0;
   color: white;
   text-align: center;
-  
+
 }
 
 footer a {
@@ -170,24 +175,40 @@ footer a p {
     padding: 0px;
   }
 
+  h1 {
+    font-size: 50px;
+  }
+
+  #menu {
+    position: absolute;
+    left: 420px;
+    /* Ajuste o valor conforme necessário */
+    top: 28px;
+  }
+
   #whatsapp {
     position: absolute;
-    left: 350px; /* Ajuste o valor conforme necessário */
-    top: 20px;
+    left: 320px;
+    /* Ajuste o valor conforme necessário */
+    top: 30px;
   }
 
   #instagram {
     position: absolute;
-    left: 468px; /* Ajuste o valor conforme necessário */
-    top: 60px;
+    left: 360px;
+    /* Ajuste o valor conforme necessário */
+    top: 30px;
   }
 
   .whatsapp-icon {
-    margin-right: 15px; /* Opcional: espaço adicional no mobile */
+    margin-right: 15px;
+    /* Opcional: espaço adicional no mobile */
   }
 
   .instagran-icon {
-    margin-right: 15px; /* Opcional: espaço adicional no mobile */
+    margin-right: 15px;
+    /* Opcional: espaço adicional no mobile */
   }
+
   
 }
