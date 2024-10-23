@@ -96,7 +96,7 @@ h2 {
 p {
   margin: 20px 1.5;
   font-family: 'roboto', sans-serif;
-  color: #b1b5b8;
+  color: #fbfdf1;
   text-align: justify;
   text-justify: auto;
 
@@ -229,7 +229,7 @@ footer a p {
   }
   
 }
-
+/* ____________________________________________________________________________________________ */
 /* referente a essa pagina */
 /* diferente da index */
 .aviso {
@@ -271,4 +271,13 @@ footer a p {
 
 .link_cookie:hover {
   text-decoration: underline;
+}
+
+/* ___________________________________________________conteudo do site________________________________ */
+
+span {
+  margin: 1.5;
+  font-weight: bold;
+  font-family: 'Orbitron', regular;
+
 }
