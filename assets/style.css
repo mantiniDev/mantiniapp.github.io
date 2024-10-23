@@ -3,7 +3,7 @@
 
 /* cabeçalho */
 header {
-  background-image: url('https://github.com/mantiniDev/mantiniapp.github.io/blob/8b5d14ceee9174879a90f86e8e1c7efb1dd4edd0/assets/img/fundo7.png');
+  background-image: url('https://raw.githubusercontent.com/mantiniDev/mantiniapp.github.io/main/assets/img/fundo7.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -136,7 +136,7 @@ p {
 
 
 footer {
-  background-image: url('https://mantiniapp.github.io/assets/img/fundo8.jpg');
+  background-image: url('https://raw.githubusercontent.com/mantiniDev/mantiniapp.github.io/main/assets/img/fundo8.jpg');
   position: unset;
   left: 0;
   bottom: 0;
