@@ -3,7 +3,7 @@
 
 /* cabeçalho */
 header {
-  background-image: url(/mantiniapp.github.io/assets/pictures/fundo7.jpeg);
+  background-image: url(/mantiniapp.github.io/assets/pictures/fundo7.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -108,22 +108,30 @@ p {
 
 /* icones sociais */
 #whatsapp {
-  color: white;
+  position: absolute;
+  left: 450px; /* Ajuste o valor conforme necessário */
+  top: 45px;
+}
+
+#instagram {
+  position: absolute;
+  left: 490px; /* Ajuste o valor conforme necessário */
+  top: 45px;
 }
 
 .social-icons a {
-  color: white;
+  color: #b1b5b8;
   /* Cor verde do WhatsApp */
 }
 
 .social-icons a:hover {
-  color: green;
+  color: #fbfdf1;
   /* Cor alterada ao passar o mouse */
 }
 
 
 footer {
-  background-image: url(/mantiniapp.github.io/assets/pictures/fundo8.jpeg);
+  background-image: url(/mantiniapp.github.io/assets/pictures/fundo8.jpg);
   position: unset;
   left: 0;
   bottom: 0;
@@ -164,14 +172,14 @@ footer a p {
 
   #whatsapp {
     position: absolute;
-    left: 190px; /* Ajuste o valor conforme necessário */
-    top: 25px;
+    left: 350px; /* Ajuste o valor conforme necessário */
+    top: 20px;
   }
 
   #instagram {
     position: absolute;
-    left: 240px; /* Ajuste o valor conforme necessário */
-    top: 25px;
+    left: 468px; /* Ajuste o valor conforme necessário */
+    top: 60px;
   }
 
   .whatsapp-icon {
