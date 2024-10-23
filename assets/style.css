@@ -237,7 +237,7 @@ footer a p {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #b1b5b8;
+  background-color: #030b14;
   color: #d42c24;
   text-align: center;
   padding: 15px;
@@ -252,7 +252,7 @@ footer a p {
 
 .aviso button {
   margin-left: 20px;
-  background-color: #EDB807;
+  background-color: #d42c24;
   color: black;
   border: none;
   padding: 5px 10px;
@@ -261,7 +261,7 @@ footer a p {
 }
 
 .aviso button:hover {
-  background-color: #EDA256;
+  background-color: #f96f68;
 }
 
 .link_cookie {
