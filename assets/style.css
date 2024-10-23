@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
 
 /* cabeçalho */
-header {
+/* header {
   background-image: url('/mantiniapp.github.io/assets/img/fundo7.png');
   background-size: cover;
   background-position: center;
@@ -16,7 +16,7 @@ header {
   overflow: hidden;
   /* Evita o colapso de margens */
   box-sizing: border-box;
-}
+} */
 
 .nav-link {
   color: white;
