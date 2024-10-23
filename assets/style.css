@@ -3,7 +3,7 @@
 
 /* cabeçalho */
 header {
-  background-image: url(/mantiniapp.github.io/assets/img/fundo7.png);
+  background-image: url('https://mantiniapp.github.io/assets/img/fundo7.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -136,7 +136,7 @@ p {
 
 
 footer {
-  background-image: url(/mantiniapp.github.io/assets/img/fundo8.jpg);
+  background-image: url('https://mantiniapp.github.io/assets/img/fundo8.jpg');
   position: unset;
   left: 0;
   bottom: 0;
