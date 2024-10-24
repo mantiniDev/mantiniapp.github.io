@@ -133,12 +133,12 @@ p {
 }
 
 .social-icons a {
-    color: #b1b5b8;
+    color: #fff0cc;
     /* Cor verde do WhatsApp */
 }
 
 .social-icons a:hover {
-    color: #fbfdf1;
+    color: #3c586c;
     /* Cor alterada ao passar o mouse */
 }
 
@@ -200,7 +200,12 @@ footer a p {
 
     .navbar-nav .nav-item {
         width: 100%;
+        color: #fff0cc;
     }
+
+    .navbar-nav .nav-item a:hover {
+        color: #3c586c;
+      }
 
     #menu {
         position: absolute;
