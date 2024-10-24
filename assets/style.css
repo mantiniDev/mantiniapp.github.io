@@ -1,6 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
 
+/* cores */
+.color1 {
+  #3c586c
+}
+
+.color2 {
+  #e74e49
+}
+
+.color3 {
+  #fff0cc
+}
+
+.color1 {
+  #d42c24
+}
+
 /* cabeçalho */
 header {
   background-image: url('../img/fundo7.png');
@@ -19,13 +36,13 @@ header {
 }
 
 .nav-link {
-  color: white;
+  color: #fff0cc;
   font-weight: bold;
 
 }
 
 .custom-toggler {
-  border-color: #d42c24;
+  border-color: #e74e49;
   /* Cor da borda do botão */
 }
 
@@ -33,6 +50,10 @@ header {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23d42c24' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
+
+.navbar-nav .nav-item a:hover {
+  color: #3c586c;
+}
 
 body {
   font-family: 'roboto', regular 400;
@@ -60,17 +81,17 @@ section {
 }
 
 .section1 {
-  background-color: #bc3823;
+  background-color: #e74e49;
 
 }
 
 .section2 {
-  background-color: #972517;
+  background-color: #e74e49;
 
 }
 
 .section3 {
-  background-color: #71130c;
+  background-color: #e74e49;
 
 }
 
@@ -80,7 +101,7 @@ h1 {
   font-size: 70px;
   font-weight: bold;
   font-family: 'Orbitron', regular;
-  color: #fbfdf1;
+  color: #fff0cc;
   text-align: center;
 }
 
@@ -89,14 +110,14 @@ h2 {
   font-size: 20px;
   font-weight: bold;
   font-family: 'roboto', sans-serif;
-  color: #fbfdf1;
+  color: #fff0cc;
   text-align: start;
 }
 
 p {
   margin: 20px 1.5;
   font-family: 'roboto', sans-serif;
-  color: #fbfdf1;
+  color: #fff0cc;
   text-align: justify;
   text-justify: auto;
 
@@ -108,8 +129,8 @@ p {
 }
 
 .btn-primary:hover {
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color: #007bff;
+  border-color: #007bff;
 }
 
 .btn-primary:focus,
@@ -133,15 +154,20 @@ p {
 }
 
 .social-icons a {
-  color: #b1b5b8;
+  color: #fff0cc;
   /* Cor verde do WhatsApp */
 }
 
 .social-icons a:hover {
-  color: #fbfdf1;
+  color: #3c586c;
   /* Cor alterada ao passar o mouse */
 }
 
+/* ___________________________________________________RODAPE_____________________________________ */
+
+.logo-rodape {
+  height: 95px;
+}
 
 footer {
   background-image: url('../img/fundo8.jpg');
@@ -158,13 +184,13 @@ footer {
 
 footer p {
   margin: 0;
-  color: white;
+  color: #fff0cc;
   text-align: center;
 
 }
 
 footer a {
-  color: white;
+  color: #fff0cc;
   text-decoration: none;
   font-family: 'roboto', sans-serif;
 }
@@ -195,6 +221,11 @@ footer a p {
 
   .navbar-nav .nav-item {
     width: 100%;
+    color: #fff0cc;
+  }
+
+  .navbar-nav .nav-item a:hover {
+    color: #3c586c;
   }
 
   #menu {
@@ -227,8 +258,9 @@ footer a p {
     margin-right: 15px;
     /* Opcional: espaço adicional no mobile */
   }
-  
+
 }
+
 /* ____________________________________________________________________________________________ */
 
 .aviso {
@@ -240,7 +272,8 @@ footer a p {
   color: #d42c24;
   text-align: center;
   padding: 15px;
-  display: block; /* Mostrar o aviso por padrão */
+  display: block;
+  /* Mostrar o aviso por padrão */
   z-index: 1000;
 }
 
