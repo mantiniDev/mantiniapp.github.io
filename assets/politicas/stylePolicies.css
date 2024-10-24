@@ -166,13 +166,13 @@ footer {
 
 footer p {
     margin: 0;
-    color: white;
+    color: #fff0cc;
     text-align: center;
 
 }
 
 footer a {
-    color: white;
+    color: #fff0cc;
     text-decoration: none;
     font-family: 'roboto', sans-serif;
 }
