@@ -19,13 +19,13 @@ header {
 }
 
 .nav-link {
-    color: white;
+    color: #fff0cc;
     font-weight: bold;
 
 }
 
 .custom-toggler {
-    border-color: #d42c24;
+    border-color: #e74e49;
     /* Cor da borda do botão */
 }
 
@@ -33,6 +33,9 @@ header {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23d42c24' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
+.navbar-nav .nav-item a:hover {
+    color: #3c586c;
+  }
 
 body {
     font-family: 'roboto', regular 400;
@@ -60,17 +63,17 @@ section {
 }
 
 .section1 {
-    background-color: #bc3823;
+    background-color: #e74e49;
 
 }
 
 .section2 {
-    background-color: #972517;
+    background-color: #e74e49;
 
 }
 
 .section3 {
-    background-color: #71130c;
+    background-color: #e74e49;
 
 }
 
@@ -80,7 +83,7 @@ h1 {
     font-size: 70px;
     font-weight: bold;
     font-family: 'Orbitron', regular;
-    color: #fbfdf1;
+    color: #fff0cc;
     text-align: center;
 }
 
@@ -89,14 +92,14 @@ h2 {
     font-size: 20px;
     font-weight: bold;
     font-family: 'Orbitron', regular;
-    color: #fbfdf1;
+    color: #fff0cc;
     text-align: start;
 }
 
 p {
     margin: 20px 1.5;
     font-family: 'roboto', sans-serif;
-    color: #b1b5b8;
+    color: #fff0cc;
     text-align: justify;
     text-justify: auto;
 
@@ -146,7 +149,7 @@ p {
 /* Rodapé */
 .logo-rodape {
     height: 95px;
-  }
+}
 
 footer {
     background-image: url('/img/fundo8.jpg');
@@ -205,7 +208,7 @@ footer a p {
 
     .navbar-nav .nav-item a:hover {
         color: #3c586c;
-      }
+    }
 
     #menu {
         position: absolute;
@@ -254,16 +257,17 @@ footer a p {
     color: #d42c24;
     text-align: center;
     padding: 15px;
-    display: block; /* Mostrar o aviso por padrão */
+    display: block;
+    /* Mostrar o aviso por padrão */
     z-index: 1000;
-  }
-  
-  .aviso p {
+}
+
+.aviso p {
     margin: 0;
     display: inline-block;
-  }
-  
-  .aviso button {
+}
+
+.aviso button {
     margin-left: 20px;
     background-color: #d42c24;
     color: black;
@@ -271,18 +275,17 @@ footer a p {
     padding: 5px 10px;
     cursor: pointer;
     border-radius: 5px;
-  }
-  
-  .aviso button:hover {
+}
+
+.aviso button:hover {
     background-color: #f96f68;
-  }
-  
-  .link_cookie {
+}
+
+.link_cookie {
     color: #d42c24;
     text-decoration: none;
-  }
-  
-  .link_cookie:hover {
+}
+
+.link_cookie:hover {
     text-decoration: underline;
-  }
-  
+}
