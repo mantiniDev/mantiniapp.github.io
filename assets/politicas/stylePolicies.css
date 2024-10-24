@@ -143,6 +143,11 @@ p {
 }
 
 
+/* Rodapé */
+.logo-rodape {
+    height: 95px;
+  }
+
 footer {
     background-image: url('/img/fundo8.jpg');
     position: unset;
@@ -175,7 +180,7 @@ footer a p {
 }
 
 
-/* mobile */
+/* _______________________________________________________________mobile */
 
 @media (max-width: 768px) {
 
