@@ -35,7 +35,7 @@ header {
 
 .navbar-nav .nav-item a:hover {
     color: #3c586c;
-  }
+}
 
 body {
     font-family: 'roboto', regular 400;
@@ -291,6 +291,11 @@ footer a p {
 }
 
 /* ____________________________________centeudo site____ */
+
+span {
+    margin: 1.5;
+    font-weight: bold;
+}
 
 .mantini {
     font-family: 'Orbitron', regular;

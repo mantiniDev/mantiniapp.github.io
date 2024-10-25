@@ -4,6 +4,9 @@
 /* cabeçalho */
 header {
     background-image: url('/img/fundo3.jpg');
+    /* para deploy */
+    /* background-image: url('/mantiniapp.github.io/img/fundo3.jpg');  */
+    /* para vizualizar na criação */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -153,6 +156,9 @@ p {
 
 footer {
     background-image: url('/img/fundo8.jpg');
+    /* para deploy */
+    /* background-image: url('/mantiniapp.github.io/img/fundo8.jpg'); */
+    /* pra vscode */
     position: unset;
     left: 0;
     bottom: 0;
@@ -292,6 +298,16 @@ footer a p {
 
 /* ____________________________________centeudo site____ */
 
-.mantini {
-    font-family: 'Orbitron', regular;
+h5 {
+    color: #0062cc;
 }
+
+span {
+    margin: 1.5;
+    font-weight: bold;
+    font-family: 'Orbitron', regular;
+  }
+  
+  .mantini {
+    font-family: 'Orbitron', regular;
+  } 
