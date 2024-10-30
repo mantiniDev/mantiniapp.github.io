@@ -1,21 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
 
+/* cores */
 .color1 {
-    #3c586c
+    #3c586c;
 }
 
 .color2 {
-    #e74e49
+    #e74e49;
 }
 
 .color3 {
-    #fff0cc
+    #fff0cc;
+}
+
+.color1 {
+    #d42c24;
 }
 
 /* cabeçalho */
 header {
-    background-image: url('/img/fundo6.jpg');
+    background-image: url('../img/fundo6.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -43,6 +48,8 @@ header {
 
 .custom-toggler-icon {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23030b14' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
 
 .navbar-nav .nav-item a:hover {
     color: #3c586c;
@@ -73,6 +80,40 @@ section {
     box-sizing: border-box;
 }
 
+.section1 {
+    background-color: #3c586c;
+
+}
+
+.section2 {
+    background-color: #3c586c;
+
+}
+
+.section3 {
+    background-color: #3c586c;
+
+}
+
+.section4 {
+    background-color: #3c586c;
+
+}
+
+.section5 {
+    background-color: #3c586c;
+
+}
+
+.section6 {
+    background-color: #3c586c;
+
+}
+
+.section7 {
+    background-color: #3c586c;
+
+}
 
 
 /* fontes */
@@ -89,7 +130,7 @@ h2 {
     margin: 0;
     font-size: 20px;
     font-weight: bold;
-    font-family: 'Orbitron', regular;
+    font-family: 'roboto', sans-serif;
     color: #fff0cc;
     text-align: start;
 }
@@ -109,8 +150,8 @@ p {
 }
 
 .btn-primary:hover {
-    background-color: #0069d9;
-    border-color: #0062cc;
+    background-color: #007bff;
+    border-color: #007bff;
 }
 
 .btn-primary:focus,
@@ -143,14 +184,14 @@ p {
     /* Cor alterada ao passar o mouse */
 }
 
+/* ___________________________________________________RODAPE_____________________________________ */
 
-/* Rodapé */
 .logo-rodape {
     height: 95px;
 }
 
 footer {
-    background-image: url('/img/fundo8.jpg');
+    background-image: url('../img/fundo8.jpg');
     position: unset;
     left: 0;
     bottom: 0;
@@ -181,7 +222,7 @@ footer a p {
 }
 
 
-/* _______________________________________________________________mobile */
+/*______________________________________________________________________________mobile */
 
 @media (max-width: 768px) {
 
@@ -239,19 +280,16 @@ footer a p {
         /* Opcional: espaço adicional no mobile */
     }
 
-
 }
 
+/* ____________________________________________________________________________________________ */
 
-
-/* referente a essa pagina */
-/* diferente da index */
 .aviso {
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: black;
+    background-color: #030b14;
     color: #d42c24;
     text-align: center;
     padding: 15px;
