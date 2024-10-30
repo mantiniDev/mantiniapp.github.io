@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
 
+.color1 {
+    #3c586c
+}
+
+.color2 {
+    #e74e49
+}
+
+.color3 {
+    #fff0cc
+}
+
 /* cabeçalho */
 header {
     background-image: url('/img/fundo6.jpg');
@@ -62,19 +74,8 @@ section {
     box-sizing: border-box;
 }
 
-.section1 {
-    background-color: #e74e49;
-
-}
-
-.section2 {
-    background-color: #e74e49;
-
-}
-
-.section3 {
-    background-color: #e74e49;
-
+main {
+    background-color: #3c586c;
 }
 
 /* fontes */
@@ -299,4 +300,8 @@ span {
 
 .mantini {
     font-family: 'Orbitron', regular;
+}
+
+.link-politicas-externas {
+    color: #f96f68;
 }
