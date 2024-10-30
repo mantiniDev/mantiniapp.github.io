@@ -20,7 +20,7 @@
 
 /* cabeçalho */
 header {
-    background-image: url('../img/fundo6.png');
+    background-image: url('/img/fundo6.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -191,7 +191,7 @@ p {
 }
 
 footer {
-    background-image: url('../img/fundo8.jpg');
+    background-image: url('/img/fundo8.jpg');
     position: unset;
     left: 0;
     bottom: 0;
