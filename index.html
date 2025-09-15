@@ -3,19 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>mantini.app</title>
+    <title>mantini.app | Automação de Processos com n8n</title>
     <link
       rel="icon"
       type="image/x-icon"
       href="/mantiniapp.github.io/img/LOGO_ico.ico"
     />
 
-    <!-- Icones -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
-    <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -24,23 +22,20 @@
       href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/assets/style.css" />
+    <link rel="stylesheet" href="style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
   </head>
 
-  <!--  Corpo do site -->
   <body>
     <header>
       <div class="container-fluid">
         <nav class="navbar navbar-expand-md">
-          <!-- logo -->
           <a class="navbar-brand" href="index.html"><h1>mantini.app</h1> </a>
 
-          <!-- Ícones sociais -->
           <div class="social-icons ms-auto" id="whatsapp">
             <a
               class="whatsapp-icon"
-              href="https://wa.me/5521995930261?text=Olá mantini.app, tenho interesse no seu serviço."
+              href="https://wa.me/5521995930261?text=Olá! Gostaria de saber mais sobre como automatizar os processos da minha empresa com n8n."
               target="_blank"
               title="WhatsApp"
             >
@@ -58,7 +53,6 @@
             </a>
           </div>
 
-          <!-- Botão Hamburguer para mobile -->
           <button
             class="navbar-toggler custom-toggler"
             type="button"
@@ -72,121 +66,108 @@
             <span class="navbar-toggler-icon custom-toggler-icon"></span>
           </button>
 
-          <!-- Links de navegação -->
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" href="/index.html">Home</a>
+                <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/assets/quem_somos/quemSomos.html">Quem Somos</a>
+                <a class="nav-link" href="#">Serviços</a>
               </li>
-              <!-- <li class="nav-item"><a class="nav-link" href="#">Franqueados</a></li> -->
-              <!-- <li class="nav-item">
-                <a class="nav-link" href="#">Contatos</a>
-              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cases</a>
+              </li>
             </ul>
           </div>
         </nav>
       </div>
+
+      <div class="container text-center hero-section">
+        <h2 class="hero-title">Pare de perder tempo com tarefas manuais.</h2>
+        <p class="lead my-4">
+          Eu conecto suas ferramentas e automatizo seus processos com n8n, para que você possa focar no crescimento da sua empresa.
+        </p>
+        <a href="https://wa.me/5521995930261?text=Olá! Gostaria de agendar um diagnóstico de automação gratuito." class="btn btn-primary btn-lg" target="_blank">Agendar Diagnóstico Gratuito</a>
+      </div>
+
     </header>
 
     <main>
-      <section class="section1">
-        <article>
-          <div class="container-fluid">
-            <div class="d-flex justify-content-evenly">
-              <div class="col-11">
-                <div class="embed-responsive embed-responsive-16by9 mx-auto">
-                  <h2>Quem Somos</h2>
-                  <br />
-                  <p>
-                    A <span>mantini.app</span> é uma empresa especializada no
-                    desenvolvimento de sites e aplicativos, focada em entregar
-                    soluções digitais personalizadas e de alto desempenho para
-                    diversos tipos de negócios.
-                  </p>
-                  <p>
-                    Nossa equipe é formada por profissionais experientes,
-                    dedicados à criação de produtos que não apenas atendem às
-                    expectativas de nossos clientes, mas também oferecem uma
-                    experiência de usuário fluida e intuitiva.
-                  </p>
-                  <p>
-                    Desde pequenos sites institucionais até plataformas robustas
-                    de e-commerce e aplicativos mobile, trabalhamos para
-                    entregar projetos sob medida, que ajudam empresas a se
-                    destacarem no ambiente digital.
-                  </p>
-                </div>
-              </div>
+      <section class="section-problem">
+        <div class="container">
+          <h3 class="section-title">Sua equipe ainda trabalha assim?</h3>
+          <div class="row text-center">
+            <div class="col-md-4 problem-item">
+              <i class="fas fa-file-excel fa-3x mb-3"></i>
+              <h4>Planilhas Manuais</h4>
+              <p>Copiando e colando dados entre diferentes planilhas e sistemas.</p>
+            </div>
+            <div class="col-md-4 problem-item">
+              <i class="fas fa-paper-plane fa-3x mb-3"></i>
+              <h4>Comunicação Lenta</h4>
+              <p>Enviando e-mails e mensagens de acompanhamento um por um.</p>
+            </div>
+            <div class="col-md-4 problem-item">
+              <i class="fas fa-exclamation-triangle fa-3x mb-3"></i>
+              <h4>Erros Humanos</h4>
+              <p>Corrigindo constantemente erros de digitação em cadastros e relatórios.</p>
             </div>
           </div>
-        </article>
+        </div>
       </section>
 
-      <section class="section2">
-        <article>
-          <div class="container-fluid">
-            <div class="d-flex justify-content-evenly">
-              <div class="col-11">
-                <div class="embed-responsive embed-responsive-16by9 mx-auto">
-                  <h2>Modelo de Produção: Eficiência e Qualidade</h2>
-                  <br />
-                  <p>
-                    Nosso modelo de produção é baseado em uma abordagem ágil,
-                    garantindo que cada etapa do processo de desenvolvimento
-                    seja conduzida de forma eficiente e transparente. Desde a
-                    fase de planejamento até a entrega final, mantemos uma
-                    comunicação constante com nossos clientes, ajustando o
-                    projeto conforme necessário para atender às suas
-                    necessidades específicas.
-                  </p>
-                  <p>
-                    Utilizamos as mais recentes tecnologias e frameworks de
-                    desenvolvimento, assegurando que cada site ou aplicativo
-                    seja otimizado para desempenho, segurança e escalabilidade.
-                    Além disso, priorizamos o design responsivo, garantindo que
-                    nossas soluções sejam acessíveis e funcionais em todas as
-                    plataformas e dispositivos.
-                  </p>
-                </div>
+      <section class="section-solution">
+        <div class="container">
+          <h3 class="section-title text-light">A Automação de Processos é a Solução</h3>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="solution-card">
+                <div class="card-icon"><i class="fas fa-bullhorn"></i></div>
+                <h5>Marketing e Vendas</h5>
+                <p>Integre leads do Facebook Ads ao seu CRM, envie propostas automáticas e notifique sua equipe de vendas no mesmo instante.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="solution-card">
+                <div class="card-icon"><i class="fas fa-tasks"></i></div>
+                <h5>Gestão e Produtividade</h5>
+                <p>Sincronize o Trello com o Google Agenda, crie relatórios automáticos e centralize a comunicação da sua equipe no Slack ou Discord.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="solution-card">
+                <div class="card-icon"><i class="fas fa-headset"></i></div>
+                <h5>Atendimento ao Cliente</h5>
+                <p>Envie mensagens de status via WhatsApp, crie tickets de suporte a partir de e-mails e organize o feedback dos clientes de forma automática.</p>
               </div>
             </div>
           </div>
-        </article>
+        </div>
       </section>
 
-      <section class="section3">
-        <article>
-          <div class="container-fluid">
-            <div class="d-flex justify-content-evenly">
-              <div class="col-11">
-                <div class="embed-responsive embed-responsive-16by9 mx-auto">
-                  <h2>Atualização Contínua e Inovação</h2>
-                  <br />
-                  <p>
-                    Na <span>mantini.app</span>, não nos limitamos apenas à
-                    entrega de um produto inicial; acreditamos na importância da
-                    evolução contínua. Nossos serviços incluem atualizações
-                    regulares e suporte técnico para manter os projetos dos
-                    clientes sempre atuais e competitivos.
-                  </p>
-                  <p>
-                    Além disso, estamos constantemente buscando inovações
-                    tecnológicas que possam aprimorar nossos produtos, como a
-                    integração de soluções baseadas em inteligência artificial,
-                    automação de processos e análise de dados. Nossa missão é
-                    garantir que nossos clientes estejam sempre à frente no
-                    mercado digital, acompanhando as tendências e incorporando
-                    as melhores práticas de tecnologia.
-                  </p>
-                </div>
-              </div>
+       <section class="section-about">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-4 text-center">
+              <img src="img/sua-foto.jpg" alt="Foto de [Seu Nome]" class="img-fluid rounded-circle mb-3">
+            </div>
+            <div class="col-md-8">
+              <h3 class="section-title text-start">Olá, eu sou o Mantini.</h3>
+              <p>Como Analista de Sistemas com anos de experiência em otimização de processos, descobri no n8n a ferramenta ideal para eliminar gargalos e tarefas repetitivas que impedem as empresas de crescer.</p>
+              <p>Minha missão é simples: usar a tecnologia para devolver a você o tempo que seria gasto em trabalho manual, permitindo que você foque na estratégia e na inovação do seu negócio.</p>
             </div>
           </div>
-        </article>
+        </div>
       </section>
+
+      <section class="section-cta">
+        <div class="container text-center">
+          <h3 class="section-title text-light">Pronto para otimizar sua operação?</h3>
+          <p class="lead my-4 text-light">Vamos conversar por 30 minutos para eu entender suas necessidades e mostrar o potencial de automação para o seu negócio. Sem compromisso.</p>
+          <a href="https://wa.me/5521995930261?text=Olá! Quero agendar minha consultoria de automação." class="btn btn-primary btn-lg" target="_blank">Quero Agendar Minha Consultoria</a>
+        </div>
+      </section>
+
     </main>
 
     <div class="aviso" id="cookie-consent">
@@ -207,7 +188,7 @@
         <div class="d-flex justify-content-between">
           <div class="justify-content-start">
             <div class="embed-responsive embed-responsive-16by9 mx-auto">
-              <a href="/index.html"
+              <a href="index.html"
                 ><img
                   class="logo-rodape"
                   src="img/logo_semfundo.png"
@@ -230,13 +211,12 @@
       <br/>
       <div class="justify-content-center">
         <p>
-          &copy; 2024 - Todos os direitos reservados |
+          &copy; 2025 - Todos os direitos reservados |
           <a class="mantini" href="http://www.mantini.app.br">mantini.app</a>
         </p>
       </div>
     </footer>
 
     <script src="/assets/politicas/scriptPolicies.js"></script>
-    <script src="#"></script>
   </body>
 </html>
