@@ -41,7 +41,7 @@ section {
 /* ---- CABEÇALHO E NAVEGAÇÃO ---- */
 header {
   /* ATUALIZADO */
-  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/fundo8.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/fundo7.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -209,10 +209,7 @@ header {
 
 /* ---- RODAPÉ ---- */
 footer {
-  /* ATUALIZADO */
-  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../img/fundo8.jpg');
-  background-size: cover;
-  background-position: center;
+  background-image: url('../img/fundo8.jpg');
   position: unset;
   padding: 20px;
   text-align: center;
