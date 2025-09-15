@@ -1,318 +1,265 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
 
-/* cores */
-.color1 {
-  #3c586c;
+/* ---- CORES E VARIÁVEIS ---- */
+:root {
+  --color-primary: #3c586c; /* Azul escuro */
+  --color-accent: #d42c24;   /* Vermelho vibrante */
+  --color-accent-hover: #e74e49;
+  --color-light: #fff0cc;   /* Creme claro */
+  --color-dark: #041726;
+  --color-background: #f8f9fa; /* Um cinza bem claro para o fundo */
 }
 
-.color2 {
-  #e74e49;
+/* ---- ESTILOS GERAIS ---- */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-background);
 }
 
-.color3 {
-  #fff0cc;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Orbitron', sans-serif;
 }
 
-.color1 {
-  #d42c24;
+section {
+  padding: 80px 0;
 }
 
-/* cabeçalho */
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+/* ---- CABEÇALHO E NAVEGAÇÃO ---- */
 header {
   background-image: url('../img/fundo7.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: scroll;
-  width: auto;
-  height: auto;
-  padding: 20px 0;
-  /* Ajustar conforme necessário */
-  margin: 0;
-  overflow: hidden;
-  /* Evita o colapso de margens */
-  box-sizing: border-box;
+  padding-bottom: 60px;
+}
+
+.navbar-brand h1 {
+  font-size: 50px;
+  color: var(--color-light);
 }
 
 .nav-link {
-  color: #fff0cc;
+  color: var(--color-light);
   font-weight: bold;
+}
 
+.nav-link:hover {
+  color: var(--color-accent-hover);
 }
 
 .custom-toggler {
-  border-color: #e74e49;
-  /* Cor da borda do botão */
+  border-color: var(--color-accent);
 }
 
 .custom-toggler-icon {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23d42c24' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
-
-.navbar-nav .nav-item a:hover {
-  color: #3c586c;
+/* ---- SEÇÃO HERÓI ---- */
+.hero-section {
+  padding: 60px 0;
 }
 
-body {
-  font-family: 'roboto', regular 400;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #333;
-  margin: 0;
-  padding: 0;
-}
-
-/* section */
-section {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  width: auto;
-  height: auto;
-  padding: 20px 0;
-  /* Ajustar conforme necessário */
-  margin: 0;
-  overflow: hidden;
-  /* Evita o colapso de margens */
-  box-sizing: border-box;
-}
-
-.section1 {
-  background-color: #e74e49;
-
-}
-
-.section2 {
-  background-color: #e74e49;
-
-}
-
-.section3 {
-  background-color: #e74e49;
-
-}
-
-/* fontes */
-h1 {
-  margin: 0;
-  font-size: 70px;
+.hero-title {
+  font-size: 3.5rem;
   font-weight: bold;
-  font-family: 'Orbitron', regular;
-  color: #fff0cc;
-  text-align: center;
+  color: var(--color-light);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-h2 {
-  margin: 0;
-  font-size: 20px;
-  font-weight: bold;
-  font-family: 'roboto', sans-serif;
-  color: #fff0cc;
-  text-align: start;
-}
-
-p {
-  margin: 20px 1.5;
-  font-family: 'roboto', sans-serif;
-  color: #fff0cc;
-  text-align: justify;
-  text-justify: auto;
-
+.hero-section .lead {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  color: var(--color-light);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn-primary {
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  padding: 15px 30px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
 .btn-primary:hover {
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: var(--color-accent-hover);
+  border-color: var(--color-accent-hover);
 }
 
-.btn-primary:focus,
-.btn-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
-}
-
-/* icones sociais */
+/* ---- ÍCONES SOCIAIS ---- */
 #whatsapp {
   position: absolute;
   left: 450px;
-  /* Ajuste o valor conforme necessário */
   top: 45px;
 }
-
 #instagram {
   position: absolute;
   left: 490px;
-  /* Ajuste o valor conforme necessário */
   top: 45px;
 }
-
 .social-icons a {
-  color: #fff0cc;
-  /* Cor verde do WhatsApp */
+  color: var(--color-light);
 }
-
 .social-icons a:hover {
-  color: #3c586c;
-  /* Cor alterada ao passar o mouse */
+  color: var(--color-primary);
 }
 
-/* ___________________________________________________RODAPE_____________________________________ */
 
-.logo-rodape {
-  height: 95px;
+/* ---- SEÇÃO PROBLEMA ---- */
+.section-problem {
+  background-color: #ffffff;
 }
 
+.problem-item i {
+  color: var(--color-accent);
+}
+
+.problem-item h4 {
+  color: var(--color-primary);
+  margin-top: 15px;
+}
+
+/* ---- SEÇÃO SOLUÇÃO ---- */
+.section-solution {
+  background-color: var(--color-primary);
+}
+
+.solution-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  height: 100%;
+  border: 1px solid var(--color-accent);
+  transition: transform 0.3s ease;
+}
+
+.solution-card:hover {
+  transform: translateY(-10px);
+}
+
+.solution-card .card-icon {
+  font-size: 3rem;
+  color: var(--color-accent);
+  margin-bottom: 20px;
+}
+
+.solution-card h5 {
+  color: var(--color-light);
+  margin-bottom: 15px;
+}
+
+.solution-card p {
+  color: #cccccc;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+/* ---- SEÇÃO SOBRE MIM ---- */
+.section-about {
+    background-color: var(--color-background);
+}
+.section-about p {
+  color: #333; /* Texto escuro em fundo claro */
+  text-align: justify;
+}
+.section-about .img-fluid {
+  max-width: 250px;
+  border: 5px solid var(--color-primary);
+}
+
+
+/* ---- SEÇÃO CTA FINAL ---- */
+.section-cta {
+  background-color: var(--color-accent);
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/fundo8.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.section-cta .btn-primary {
+  background-color: var(--color-light);
+  border-color: var(--color-light);
+  color: var(--color-primary);
+}
+.section-cta .btn-primary:hover {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+/* ---- RODAPÉ ---- */
 footer {
   background-image: url('../img/fundo8.jpg');
   position: unset;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   font-size: 14px;
-  color: #041726;
-  font-family: 'roboto', sans-serif;
+  color: var(--color-dark);
 }
 
-footer p {
-  margin: 0;
-  color: #fff0cc;
-  text-align: center;
-
-}
-
-footer a {
-  color: #fff0cc;
+footer p, footer a {
+  color: var(--color-light);
   text-decoration: none;
-  font-family: 'roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-footer a p {
-  text-align: justify;
-  text-justify: auto;
+footer .logo-rodape {
+  height: 95px;
 }
 
-
-/*______________________________________________________________________________mobile */
-
-@media (max-width: 768px) {
-
-  header {
-    padding: 0px;
-  }
-
-  h1 {
-    font-size: 30px;
-  }
-
-  .navbar-nav {
-    margin-left: 0;
-    text-align: center;
-    width: 100%;
-  }
-
-  .navbar-nav .nav-item {
-    width: 100%;
-    color: #fff0cc;
-  }
-
-  .navbar-nav .nav-item a:hover {
-    color: #3c586c;
-  }
-
-  #menu {
-    position: absolute;
-    left: 300px;
-    /* Ajuste o valor conforme necessário */
-    top: 15px;
-  }
-
-  #whatsapp {
-    position: absolute;
-    left: 220px;
-    /* Ajuste o valor conforme necessário */
-    top: 20px;
-  }
-
-  #instagram {
-    position: absolute;
-    left: 260px;
-    /* Ajuste o valor conforme necessário */
-    top: 20px;
-  }
-
-  .whatsapp-icon {
-    margin-right: 15px;
-    /* Opcional: espaço adicional no mobile */
-  }
-
-  .instagran-icon {
-    margin-right: 15px;
-    /* Opcional: espaço adicional no mobile */
-  }
-
-}
-
-/* ____________________________________________________________________________________________ */
-
+/* ---- COOKIE BANNER ---- */
 .aviso {
   position: fixed;
   bottom: 0;
-  left: 0;
   width: 100%;
-  background-color: #030b14;
-  color: #d42c24;
+  background-color: var(--color-dark);
+  color: var(--color-accent);
   text-align: center;
   padding: 15px;
   display: block;
-  /* Mostrar o aviso por padrão */
   z-index: 1000;
 }
-
-.aviso p {
-  margin: 0;
-  display: inline-block;
-}
-
+.aviso p { color: var(--color-light); }
 .aviso button {
-  margin-left: 20px;
-  background-color: #d42c24;
-  color: black;
-  border: none;
-  padding: 5px 10px;
-  cursor: pointer;
-  border-radius: 5px;
+  background-color: var(--color-accent);
+  color: black; border: none; padding: 5px 10px; cursor: pointer; border-radius: 5px;
 }
+.link_cookie { color: var(--color-accent); text-decoration: none; }
 
-.aviso button:hover {
-  background-color: #f96f68;
+/* ---- RESPONSIVIDADE (MOBILE) ---- */
+@media (max-width: 768px) {
+  header { padding: 10px 0; }
+  .navbar-brand h1 { font-size: 30px; }
+  .hero-title { font-size: 2.5rem; }
+  .hero-section .lead { font-size: 1.2rem; }
+  
+  .section-title { font-size: 2rem; }
+  section { padding: 50px 0; }
+  
+  .navbar-nav { text-align: center; background-color: rgba(0,0,0,0.7); }
+  #menu { position: absolute; right: 15px; top: 25px; }
+  #whatsapp { position: absolute; right: 110px; top: 30px; left: unset; }
+  #instagram { position: absolute; right: 70px; top: 30px; left: unset; }
+
+  .problem-item { margin-bottom: 30px; }
+  .section-about .text-center { margin-bottom: 30px; }
 }
-
-.link_cookie {
-  color: #d42c24;
-  text-decoration: none;
-}
-
-.link_cookie:hover {
-  text-decoration: underline;
-}
-
-/* ___________________________________________________conteudo do site________________________________ */
-
-span {
-  margin: 1.5;
-  font-weight: bold;
-  font-family: 'Orbitron', regular;
-}
-
-.mantini {
-  font-family: 'Orbitron', regular;
-} 
