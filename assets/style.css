@@ -40,7 +40,8 @@ section {
 
 /* ---- CABEÇALHO E NAVEGAÇÃO ---- */
 header {
-  background-image: url('../img/fundo7.png');
+  /* ATUALIZADO */
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/fundo8.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -208,7 +209,10 @@ header {
 
 /* ---- RODAPÉ ---- */
 footer {
-  background-image: url('../img/fundo8.jpg');
+  /* ATUALIZADO */
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../img/fundo8.jpg');
+  background-size: cover;
+  background-position: center;
   position: unset;
   padding: 20px;
   text-align: center;
