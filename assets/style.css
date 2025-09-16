@@ -217,34 +217,46 @@ footer {
   color: var(--color-dark);
 }
 
-footer p, footer a {
+.footer-content {
+  display: flex;
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  align-items: center;    /* Alinha os itens verticalmente */
+  flex-wrap: wrap;        /* Permite que os itens quebrem a linha em telas pequenas */
+  gap: 40px;              /* Cria um espaço entre o logo e os links */
+  margin-bottom: 20px;
+}
+
+.logo-rodape {
+  height: 80px; /* Um pouco menor para um visual mais refinado */
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column; /* Coloca os links um abaixo do outro */
+  gap: 10px; /* Espaço entre os links */
+  text-align: center; /* Alinha o texto dos links (útil no mobile) */
+}
+
+footer a {
   color: var(--color-light);
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  transition: color 0.3s ease;
 }
 
-footer .logo-rodape {
-  height: 95px;
+footer a:hover {
+  color: var(--color-accent-hover); /* Efeito ao passar o mouse */
 }
 
-/* ---- COOKIE BANNER ---- */
-.aviso {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: var(--color-dark);
-  color: var(--color-accent);
-  text-align: center;
-  padding: 15px;
-  display: block;
-  z-index: 1000;
+.footer-copyright p {
+  margin: 0;
+  font-size: 14px;
+  color: #cccccc; /* Um pouco mais suave para dar destaque ao conteúdo principal */
 }
-.aviso p { color: var(--color-light); }
-.aviso button {
-  background-color: var(--color-accent);
-  color: black; border: none; padding: 5px 10px; cursor: pointer; border-radius: 5px;
+
+.footer-copyright .mantini {
+  font-family: 'Orbitron', sans-serif;
+  color: var(--color-light);
 }
-.link_cookie { color: var(--color-accent); text-decoration: none; }
 
 /* ---- RESPONSIVIDADE (MOBILE) ---- */
 @media (max-width: 768px) {
