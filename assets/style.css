@@ -209,7 +209,7 @@ header {
 
 /* ---- RODAPÉ ---- */
 footer {
-  background-image: url('../img/fundo8.jpg');
+  /* background-image: url('../img/fundo8.jpg'); */
   position: unset;
   padding: 20px;
   text-align: center;
