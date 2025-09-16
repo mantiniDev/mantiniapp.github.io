@@ -341,18 +341,59 @@ footer a:hover {
   color: var(--color-light);
 }
 
-/* ---- TRANSIÇÃO DO AVISO DE COOKIES ---- */
+/* ---- AVISO DE COOKIES (CÓDIGO CORRIGIDO) ---- */
 .aviso {
-  /* Começa invisível */
+  /* Estilos essenciais que foram perdidos (posição e cor de fundo) */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--color-dark); /* Fundo escuro */
+  color: var(--color-accent);
+  text-align: center;
+  padding: 15px;
+  z-index: 1000;
+
+  /* Estilos da nova transição */
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
 }
 
+/* Classe que torna o aviso visível */
 .aviso.visible {
-  /* Torna-se visível */
   opacity: 1;
   visibility: visible;
+}
+
+/* Estilos para o conteúdo do aviso (estes já estavam corretos) */
+.aviso p {
+  margin: 0;
+  display: inline-block;
+  color: var(--color-light); /* Cor clara para o texto */
+}
+
+.aviso button {
+  margin-left: 20px;
+  background-color: var(--color-accent);
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.aviso button:hover {
+  background-color: #f96f68;
+}
+
+.link_cookie {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.link_cookie:hover {
+  text-decoration: underline;
 }
 
 /* ---- RESPONSIVIDADE (MOBILE) ---- */
