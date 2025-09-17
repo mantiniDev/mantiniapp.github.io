@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato | mantini.app</title>
+    
+    <link rel="icon" type="image/x-icon" href="/mantiniapp.github.io/img/LOGO_ico.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/style.css" /> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md">
+  <a class="navbar-brand" href="/index.html"><h1>mantini.app</h1></a>
+
+  <div class="navbar-right-items">
+     <!--<div class="social-icons" id="whatsapp">
+      <a class="whatsapp-icon" href="https://wa.me/5521995930261?text=Olá! Gostaria de saber mais sobre como automatizar os processos da minha empresa com n8n." target="_blank" title="WhatsApp">
+        <i class="fa-brands fa-whatsapp fa-2x"></i>
+      </a>
+    </div>
+    <div class="social-icons" id="instagram">
+      <a class="instagram-icon" href="https://www.instagram.com/mantini.app/?next=%2F" target="_blank" title="Instagram">
+        <i class="fa-brands fa-instagram fa-2x"></i>
+      </a>
+    </div> -->
+
+    <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="menu">
+      <span class="navbar-toggler-icon custom-toggler-icon"></span>
+    </button>
+  </div>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/assets/servicos.html">Serviços</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/assets/cases.html">Cases</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/assets/blog.html">Blog</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+        </div>
+        <div class="container text-center hero-section">
+            <h2 class="hero-title">Entre em Contato</h2>
+            <p class="lead my-4">Tem alguma dúvida ou quer um orçamento? Preencha o formulário abaixo e retornarei em breve.</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-contact">
+            <div class="container">
+                <div class="contact-form-wrapper">
+                    <form action="https://formspree.io/f/mzzalgdp" method="POST">
+                        <div class="form-group">
+                            <label for="name">Seu Nome:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Seu E-mail:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Sua Dúvida ou Mensagem:</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <a href="index.html">
+            <img
+              class="logo-rodape"
+              src="/img/logo_semfundo.png"
+              alt="logo mantini.app"
+            />
+          </a>
+          <div class="footer-links">
+            <a href="/assets/politicas/policies.html">Pólitica de Cookies</a>
+            <a href="/assets/contato.html">Contato</a>
+          </div>
+        </div>
+
+        <div class="footer-copyright">
+          <p>
+            &copy; 2025 - Todos os direitos reservados |
+            <a class="mantini" href="http://www.mantini.app.br">mantini.app</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="aviso" id="cookie-consent"> ... </div>
+    <script src="/assets/politicas/scriptPolicies.js"></script>
+</body>
+</html>

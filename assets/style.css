@@ -3,12 +3,16 @@
 
 /* ---- CORES E VARIÁVEIS ---- */
 :root {
-  --color-primary: #3c586c; /* Azul escuro */
-  --color-accent: #d42c24;   /* Vermelho vibrante */
+  --color-primary: #3c586c;
+  /* Azul escuro */
+  --color-accent: #d42c24;
+  /* Vermelho vibrante */
   --color-accent-hover: #e74e49;
-  --color-light: #fff0cc;   /* Creme claro */
+  --color-light: #fff0cc;
+  /* Creme claro */
   --color-dark: #041726;
-  --color-background: #f8f9fa; /* Um cinza bem claro para o fundo */
+  --color-background: #f8f9fa;
+  /* Um cinza bem claro para o fundo */
 }
 
 /* ---- ESTILOS GERAIS --- */
@@ -22,7 +26,12 @@ body {
   background-color: var(--color-background);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Orbitron', sans-serif;
 }
 
@@ -41,7 +50,7 @@ section {
 /* ---- CABEÇALHO E NAVEGAÇÃO ---- */
 header {
   /* ATUALIZADO */
-  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/fundo7.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/fundo7.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -113,14 +122,17 @@ header {
   left: 450px;
   top: 45px;
 }
+
 #instagram {
   position: absolute;
   left: 490px;
   top: 45px;
 }
+
 .social-icons a {
   color: var(--color-light);
 }
+
 .social-icons a:hover {
   color: var(--color-primary);
 }
@@ -178,12 +190,15 @@ header {
 
 /* ---- SEÇÃO SOBRE MIM ---- */
 .section-about {
-    background-color: var(--color-background);
+  background-color: var(--color-background);
 }
+
 .section-about p {
-  color: #333; /* Texto escuro em fundo claro */
+  color: #333;
+  /* Texto escuro em fundo claro */
   text-align: justify;
 }
+
 .section-about .img-fluid {
   max-width: 250px;
   border: 5px solid var(--color-primary);
@@ -193,108 +208,124 @@ header {
 /* ---- SEÇÃO CTA FINAL ---- */
 .section-cta {
   background-color: var(--color-accent);
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/fundo8.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/fundo8.jpg');
   background-size: cover;
   background-position: center;
 }
+
 .section-cta .btn-primary {
   background-color: var(--color-light);
   border-color: var(--color-light);
   color: var(--color-primary);
 }
+
 .section-cta .btn-primary:hover {
   background-color: #ffffff;
   border-color: #ffffff;
 }
+
 /* ---- PÁGINA DE CASES ---- */
 .section-cases {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
+
 .case-item {
-    background-color: var(--color-background);
-    padding: 30px;
-    border-radius: 10px;
-    margin-bottom: 40px;
-    border-left: 5px solid var(--color-accent);
+  background-color: var(--color-background);
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  border-left: 5px solid var(--color-accent);
 }
+
 .case-item h3 {
-    color: var(--color-primary);
+  color: var(--color-primary);
 }
+
 .case-details {
-    color: #333;
+  color: #333;
 }
+
 .case-details strong {
-    color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 
 /* ---- PÁGINA DE BLOG ---- */
 .section-blog {
-    background-color: var(--color-background);
+  background-color: var(--color-background);
 }
+
 .blog-card {
-    background-color: #ffffff;
-    padding: 25px;
-    border-radius: 10px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
+
 .blog-card h4 {
-    color: var(--color-primary);
+  color: var(--color-primary);
 }
+
 .blog-card p {
-    flex-grow: 1; /* Faz o texto ocupar o espaço e alinhar o botão no final */
-    color: #333;
+  flex-grow: 1;
+  /* Faz o texto ocupar o espaço e alinhar o botão no final */
+  color: #333;
 }
+
 .btn-read-more {
-    color: var(--color-accent);
-    text-decoration: none;
-    font-weight: bold;
-    font-family: 'Orbitron', sans-serif;
+  color: var(--color-accent);
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Orbitron', sans-serif;
 }
+
 .btn-read-more:hover {
-    color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 /* ---- PÁGINA DE POLÍTICAS ---- */
 .section-policy {
-    background-color: #ffffff;
-    padding: 80px 0;
+  background-color: #ffffff;
+  padding: 80px 0;
 }
 
 .policy-content {
-    max-width: 800px; /* Limita a largura do texto para melhor leitura */
-    margin: 0 auto;   /* Centraliza o bloco de texto */
+  max-width: 800px;
+  /* Limita a largura do texto para melhor leitura */
+  margin: 0 auto;
+  /* Centraliza o bloco de texto */
 }
 
 .policy-content h2 {
-    color: var(--color-primary);
-    margin-top: 40px;
-    margin-bottom: 20px;
+  color: var(--color-primary);
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
-.policy-content p, .policy-content li {
-    color: #333;
-    font-size: 1.1rem;
-    line-height: 1.7;
-    text-align: justify;
+.policy-content p,
+.policy-content li {
+  color: #333;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  text-align: justify;
 }
 
 .policy-content ul {
-    list-style-type: disc;
-    padding-left: 20px;
+  list-style-type: disc;
+  padding-left: 20px;
 }
 
 .policy-content strong {
-    color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 /* ---- RODAPÉ ---- */
 footer {
   /* ADICIONADO: Fundo com a cor sólida vermelha */
-  background-color: var(--color-accent); 
+  background-color: var(--color-accent);
   padding: 30px 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -302,22 +333,30 @@ footer {
 
 .footer-content {
   display: flex;
-  justify-content: center; /* Centraliza os itens horizontalmente */
-  align-items: center;    /* Alinha os itens verticalmente */
-  flex-wrap: wrap;        /* Permite que os itens quebrem a linha em telas pequenas */
-  gap: 40px;              /* Cria um espaço entre o logo e os links */
+  justify-content: center;
+  /* Centraliza os itens horizontalmente */
+  align-items: center;
+  /* Alinha os itens verticalmente */
+  flex-wrap: wrap;
+  /* Permite que os itens quebrem a linha em telas pequenas */
+  gap: 40px;
+  /* Cria um espaço entre o logo e os links */
   margin-bottom: 20px;
 }
 
 .logo-rodape {
-  height: 80px; /* Um pouco menor para um visual mais refinado */
+  height: 80px;
+  /* Um pouco menor para um visual mais refinado */
 }
 
 .footer-links {
   display: flex;
-  flex-direction: column; /* Coloca os links um abaixo do outro */
-  gap: 10px; /* Espaço entre os links */
-  text-align: center; /* Alinha o texto dos links (útil no mobile) */
+  flex-direction: column;
+  /* Coloca os links um abaixo do outro */
+  gap: 10px;
+  /* Espaço entre os links */
+  text-align: center;
+  /* Alinha o texto dos links (útil no mobile) */
 }
 
 footer a {
@@ -327,13 +366,15 @@ footer a {
 }
 
 footer a:hover {
-  color: var(--color-accent-hover); /* Efeito ao passar o mouse */
+  color: var(--color-accent-hover);
+  /* Efeito ao passar o mouse */
 }
 
 .footer-copyright p {
   margin: 0;
   font-size: 14px;
-  color: #cccccc; /* Um pouco mais suave para dar destaque ao conteúdo principal */
+  color: #cccccc;
+  /* Um pouco mais suave para dar destaque ao conteúdo principal */
 }
 
 .footer-copyright .mantini {
@@ -348,7 +389,8 @@ footer a:hover {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: var(--color-dark); /* Fundo escuro */
+  background-color: var(--color-dark);
+  /* Fundo escuro */
   color: var(--color-accent);
   text-align: center;
   padding: 15px;
@@ -370,7 +412,8 @@ footer a:hover {
 .aviso p {
   margin: 0;
   display: inline-block;
-  color: var(--color-light); /* Cor clara para o texto */
+  color: var(--color-light);
+  /* Cor clara para o texto */
 }
 
 .aviso button {
@@ -396,28 +439,101 @@ footer a:hover {
   text-decoration: underline;
 }
 
+/* ---- PÁGINA DE CONTATO ---- */
+.section-contact {
+  background-color: #ffffff;
+  padding: 80px 0;
+}
+
+.contact-form-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: var(--color-background);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: var(--color-primary);
+  font-family: 'Roboto', sans-serif;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 2px rgba(60, 88, 108, 0.3);
+}
+
+/* O botão do formulário usará o estilo .btn-primary que já criamos */
+.contact-form-wrapper .btn-primary {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.2rem;
+}
+
 /* ---- RESPONSIVIDADE (MOBILE) ---- */
 @media (max-width: 768px) {
   .navbar {
     /* Garante que o alinhamento funcione corretamente */
     justify-content: space-between;
   }
-  
-  header { padding: 10px 0; }
-  .navbar-brand h1 { font-size: 30px; }
-  .hero-title { font-size: 2.5rem; }
-  .hero-section .lead { font-size: 1.2rem; }
-  
-  .section-title { font-size: 2rem; }
-  section { padding: 50px 0; }
-  
-  .navbar-nav { text-align: center; background-color: rgba(0,0,0,0.7); }
+
+  header {
+    padding: 10px 0;
+  }
+
+  .navbar-brand h1 {
+    font-size: 30px;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-section .lead {
+    font-size: 1.2rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  section {
+    padding: 50px 0;
+  }
+
+  .navbar-nav {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
 
   /* ----- AQUI ESTÁ A CORREÇÃO ----- */
-  
+
   /* Removemos completamente as posições absolutas e IDs */
-  #menu, #whatsapp, #instagram {
-    position: static; /* Reseta o posicionamento */
+  #menu,
+  #whatsapp,
+  #instagram {
+    position: static;
+    /* Reseta o posicionamento */
     left: auto;
     top: auto;
     right: auto;
@@ -425,18 +541,27 @@ footer a:hover {
 
   /* Novo container para os itens da direita */
   .navbar-right-items {
-    display: flex; /* Ativa o Flexbox */
-    align-items: center; /* Alinha verticalmente */
-    gap: 15px; /* Cria um espaço entre os ícones e o menu */
+    display: flex;
+    /* Ativa o Flexbox */
+    align-items: center;
+    /* Alinha verticalmente */
+    gap: 15px;
+    /* Cria um espaço entre os ícones e o menu */
   }
 
   /* Ajuste no tamanho dos ícones para mobile */
   .social-icons .fa-2x {
-    font-size: 1.8em; /* Levemente menor para caber melhor */
+    font-size: 1.8em;
+    /* Levemente menor para caber melhor */
   }
-  
+
   /* ----- FIM DA CORREÇÃO ----- */
 
-  .problem-item { margin-bottom: 30px; }
-  .section-about .text-center { margin-bottom: 30px; }
+  .problem-item {
+    margin-bottom: 30px;
+  }
+
+  .section-about .text-center {
+    margin-bottom: 30px;
+  }
 }
